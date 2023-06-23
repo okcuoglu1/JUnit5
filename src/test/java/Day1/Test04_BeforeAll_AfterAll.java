@@ -18,7 +18,7 @@ public class Test04_BeforeAll_AfterAll {
     @AfterAll
     static void afterAll(){
         System.out.println("AfterAll calıstı");
-    }
+    } //Test bittikten sonra bilgi verilmek icin de kullanılabilir.
 
     @Test
     void testWithArrays(){
