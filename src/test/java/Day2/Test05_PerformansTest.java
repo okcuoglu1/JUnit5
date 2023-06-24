@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 public class Test05_PerformansTest {
 
     // !!! Bunu nerede kullanabiliriz ??? Task olarak verilen sorunun cozumu icin
-    // yazilan kodun maksimum 2 saniye icinde ekrana sonucu vermesini sitiyorsam :
+    // yazilan kodun maksimum 2 saniye icinde ekrana sonucu vermesini istiyorsam :
 
     @Test
     void testPrintPerformans(){

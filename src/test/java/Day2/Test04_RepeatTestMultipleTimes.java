@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Test04_RepeatTestMultipleTimes {
 
-    // !!! Testi tekrarlatmak istersem ???
+    // !!! Testi tekrarlatmak istersem ??? genelde random değerler ile çalışmak icin kullanılır.
 
     @RepeatedTest(5)
     void testSubstring(){
