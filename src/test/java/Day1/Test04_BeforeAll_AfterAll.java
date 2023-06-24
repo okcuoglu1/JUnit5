@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 public class Test04_BeforeAll_AfterAll {
 
     //not Bütün test methodlarından önce bir method ve bütün testlerden sonra bir method calısmasını istersek...
+    //not beforeAll ve afterAll methodları statik olmalı hic birisi calısmadan onlar calısmalı
 
     @BeforeAll
     static void beforeAll(){
